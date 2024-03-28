@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+header {
+    background-color: #CDB2DB;
+    height: 10%;
+}
+main {
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer {
+    background-color: #A3D2FF;
+    height: 10%;
+}
+.container1 {
+    background-color: #FFC8DD;
+}
+.container2 {
+    background-color: #FFAFCD;
+}
+.container3 {
+    background-color: #BCE0FD;
+}

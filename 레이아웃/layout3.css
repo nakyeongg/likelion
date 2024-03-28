@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+header {
+    height: 10%;
+    background-color: #DE7D86;
+}
+main {
+    height: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.main-t {
+    background-image: url(./image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-l {
+    background-color: #FFC5C5;
+}
+.main-m {
+    background-color: #FFA3A3;
+}
+.main-r {
+    background-color: #B4828F;
+}
+footer {
+    height: 10%;
+    background-color: #6E6875;
+}
