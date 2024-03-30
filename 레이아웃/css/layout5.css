@@ -39,13 +39,13 @@ footer {
     grid-template-rows: repeat(2, 1fr);
 }
 .main1-t {
-    background-image: url(./image5.png);
+    background-image: url(../img/image5.png);
 }
 .main1-b {
-    background-image: url(./image6.png);
+    background-image: url(../img/image6.png);
 }
 .main1-r {
-    background-image: url(./image7.png);
+    background-image: url(../img/image7.png);
 }
 .main1-t,
 .main1-b,

@@ -17,7 +17,7 @@ main {
     grid-template-rows: 1fr 1fr;
 }
 .main-t {
-    background-image: url(./image1.png);
+    background-image: url(../img/image1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
