@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    height: 10%;
+    display: flex;
+}
+main {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(1,1);
+}
+footer {
+    height: 10%;
+    background-color: #D6CCC2;
+}
+.header-l {
+    width: 20%;
+    height: 100%;
+    background-color: #EEEEE9;
+}
+.header-r {
+    width: 80%;
+    height: 100%;
+    background-color: #D6CCC2;
+}
+.main-t {
+    height: 100%;
+    background-color: #F5ECE1;
+}
+.main-b {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-l {
+    background-color: #E4D6CA;
+}
+.main-r {
+    background-color: #D5BEB1;
+}
