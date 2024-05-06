@@ -1,0 +1,253 @@
+.playfair-display-regular {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+    --navy--color: #444C61;
+    --pink--color: #F5E4EA;
+    --gray--color: #9D9D9D;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+}
+button {
+    cursor: pointer;
+}
+p {
+    margin: 0;
+}
+table {
+    width: 100%;
+}
+#wrap {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    height: 800px;
+}
+header {
+    height: 70px;
+    background-color: var(--navy--color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+footer {    
+    display: flex;
+    height: 100px;
+    background-color: var(--navy--color);
+    color: var(--gray--color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
+}
+.header-l {
+    color: var(--pink--color);
+    font-size: 53px;
+    font-family: "Playfair Display", serif;
+}
+.header-r {
+    display: flex;
+    color: var(--pink--color);
+    justify-content: center;
+    font-size: 24px;
+    z-index: 5;
+}
+.header-r > div {
+    width: 150px;
+}
+.header-r > div:hover > a {
+    color: var(--gray--color);
+}
+.header-r > div > a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    padding: 19px;
+}
+.sub {
+    width: 100%;
+    padding: initial;
+    margin: 0;
+    display: none;
+}
+.sub > li > a {
+    display: block;
+    background-color: #000000a3;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.sub > li > a:hover {
+    background-color: var(--pink--color);
+    color: var(--navy--color);
+}
+.main-t {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+.main-t ul {
+    height: 1050px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1050px;
+}
+.main-t ul li {
+    width: 1200px;
+    height: 350px;
+}
+.main-t ul li a {
+    display: block;
+    height: 100%;
+}
+.main-t ul li.main-t1 {
+    background: url(img/image1.png) no-repeat center/cover;
+}
+.main-t ul li.main-t2 {
+    background: url(img/image4.png) no-repeat center/cover;
+}
+.main-t ul li.main-t3 {
+    background: url(img/image5.png) no-repeat center/cover;
+}
+.main-b {
+    height: 280px;
+    display: flex;
+}
+.main-l {
+    width: 400px;
+    background-color: var(--pink--color);
+}
+.main-l .tabmenu li {
+    width: 100px;
+    display: inline-block;
+}
+.main-l .tabmenu li.on {
+    background-color: var(--navy--color);
+    color: var(--pink--color);
+}
+.main-l .tabmenu li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.notice {
+    color: var(--navy--color);
+}
+.notice th {
+    text-align: left;
+}
+.notice a {
+    display: block;
+    padding: auto;
+}
+.pp:hover {
+    text-decoration: underline;
+}
+.gall ul {
+    text-align: center;
+}
+.gall ul li {
+    width: 120px;
+    display: inline-block;
+}
+.main-l .tabcon {
+    background-color: var(--pink--color);
+    height: 180px;
+    padding: 10px;
+    display: flex;
+}
+.main-l .gall {
+    padding-top: 30px;
+    display: none;
+}
+.main-m {
+    width: 400px;
+    color: #ffffff;
+    background-image: url(img/image2.png);
+    background-size: cover;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.8);
+}
+.main-r {
+    width: 400px;
+    color: #ffffff;
+    background-image: url(img/image3.png);
+    background-size: cover;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.8);
+}
+.footer-l {
+    font-size: 53px;
+    font-family: "Playfair Display", serif;
+}
+.footer-r {
+    font-size: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.popup {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    display: none;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.popup-t {
+    height: 60px;
+    background-color: var(--navy--color);
+    color: #FFFFFF;
+    line-height: 60px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.popup-b {
+    height: 290px;
+    background-color: var(--pink--color);
+    color: var(--navy--color);
+    padding: 30px;
+}
+.popup .button {
+    text-align: right;
+    margin-top: 30px;
+}
+button {
+    background-color: var(--navy--color);
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
