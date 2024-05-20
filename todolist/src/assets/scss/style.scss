@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+  }
+  
+  body {
+    background-color: #92CAFF;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    //border-bottom: 2px solid #92CAFF;
+  }
+  
+  ul {
+    padding: 0;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input {
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    padding: 0;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  .plus {
+    width: 22px;
+    height: 22px;
+    border: none;
+  }
+  
+  .plus img {
+    width: 22px;
+    height: 22px;
+  }
+  
+  .inputbox {
+    padding: 20px 30px;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+    width: 100%;
+  }
+  
+  .donebox {
+    margin-right: 10px;
+  }
+  
+  .box input[type='checkbox'] + label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #92CAFF;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .bigbox {
+    position: relative;
+    width: 100%;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 18px;
+    height: 18px;
+    transform: translateY(-50%);
+  }
+  
+  .btn1 {
+    position: absolute;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+    transform: translateY(-50%);
+    right: 10px; /* Right alignment inside the input container */
+  }
+  
+  .input-container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
