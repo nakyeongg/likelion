@@ -1,5 +1,7 @@
-import React from 'react'
+import React,{Suspense,lazy} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './components/section/Main';
+
 import Home from './pages/Home';
 import Today from './pages/Today';
 import Developer from './pages/Developer';
@@ -13,15 +15,11 @@ import Video from './pages/Video';
 import Search from './pages/Search';
 import Not from './pages/Not';
 
-import Header from './components/section/Header';
-import Main from './components/section/Main';
-import Footer from './components/section/Footer';
 
 const App = () => {
     return (
         <BrowserRouter>
-        <Header/>
-        <Main>
+        <Suspense fallback={<Main/>}>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/today' element={<Today/>}/>
@@ -36,8 +34,7 @@ const App = () => {
             <Route path='/search/:searchld' element={<Search/>}/>
             <Route path='*' element={<Not/>}/>
           </Routes>
-          </Main>
-          <Footer/>
+          </Suspense>
         </BrowserRouter>
     )
 }
