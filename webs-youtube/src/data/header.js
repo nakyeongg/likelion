@@ -8,13 +8,12 @@ import { CiFries } from "react-icons/ci";
 import { CiMoneyBill } from "react-icons/ci";
 
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
+import { SiVelog } from "react-icons/si";
 import { AiOutlineInstagram } from "react-icons/ai";
 
 export const headerMenus = [
     {
-        title: "웹스토리보이",
+        title: "nakyeongg",
         icon: <CiBaseball/>,
         src: "/"
     },
@@ -57,8 +56,8 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
+        title: "nakyeongg",
+        src: "/search/nakyeongg"
     },
     {
         title: "HTML",
@@ -105,22 +104,17 @@ export const searchKeyword = [
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/nakyeongg",
         icon: <AiFillGithub/>
     },
     {
-        title: "youtube",
-        url: "https://www.youtube.com/webstoryboy",
-        icon: <AiFillYoutube/>
-    },
-    {
-        title: "codepen",
-        url: "https://codepen.io/webstoryboy",
-        icon: <AiOutlineCodepen/>
+        title: "velog",
+        url: "https://velog.io/@nakyeongg/posts",
+        icon: <SiVelog/>
     },
     {
         title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
+        url: "https://www.instagram.com/_nagang",
         icon: <AiOutlineInstagram/>
     },
 ]
