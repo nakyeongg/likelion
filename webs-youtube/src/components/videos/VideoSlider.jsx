@@ -15,7 +15,7 @@ const VideoSlider = ({videos,title,id}) => {
             setLoading(false);
         },500);
     },[]);
-    const yuotubeClass=loading?'isLoading':'isLoaded';
+    const youtubeClass=loading?'isLoading':'isLoaded';
 
   return (
     <section id={id} >
