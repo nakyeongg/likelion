@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import Main from '../components/section/Main'
 
 import VideoSearch from '../components/videos/VideoSearch'
+
 const Search = () => {
   const { searchId } = useParams();
   const [ videos, setVideos ] = useState([]);
