@@ -1,0 +1,26 @@
+.popular-title {
+    text-align: center;
+}
+.popular-list {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    p:hover {
+        cursor: pointer;
+    }
+}
+.popular-big-container {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+.popular-container {
+    padding: 10px;
+    img {
+        width: 150px;
+    }
+    p {
+        font-size: 9px;
+    }
+}
