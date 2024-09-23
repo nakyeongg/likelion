@@ -1,0 +1,55 @@
+.aside-container {
+    position: fixed;
+    bottom: 5vh;
+    right: 12px;
+    z-index: 890;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+
+    button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FFCF00;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-out;
+
+        &:hover {
+            background-color: #F58C1E;
+        }
+
+        img {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: all 0.2s ease-out;
+        scroll-behavior: smooth;
+        
+
+        &:hover {
+            background-color: #FFCF00;
+            border: 1px solid #fff;
+        }
+
+        img {
+            width: 16px;
+            height: 10px;
+        }
+    }
+
+}
