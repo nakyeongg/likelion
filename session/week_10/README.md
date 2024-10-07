@@ -2,8 +2,6 @@
 
 ### 조건
 
----
-
 1. 맨 처음 화면에 들어가면 로딩 페이지가 뜨도록하세요
 2. 메인의 슬라이더는 스와이퍼를 사용하세요
 3. common 파일을 직접 만들어서 작업하세요
@@ -14,8 +12,13 @@
 
 ### Tip
 
----
-
 1. Header, Nav, Slider처럼 반복되는 부분은 Coponent로 만들어 재사용할 수 있도록 합시다
 2. 구글에 React Kakao map을 검색해 봅시다
 3. 각 페이지마다 들어있는 container 클래스는 어떻게 활용하는 걸지 생각해봅시다
+
+### 실행화면
+<img src="./src/assets/img/png/image1.png">
+<img src="./src/assets/img/png/image2.png">
+<img src="./src/assets/img/png/image3.png">
+<img src="./src/assets/img/png/image4.png">
+<img src="./src/assets/img/png/image5.png">
