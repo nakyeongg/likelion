@@ -1,0 +1,40 @@
+.container {
+
+    .slider-container {
+
+        img {
+            height: 140px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.header-container {
+    width: 375px;
+    height: 50px;
+    background-color: var(--maincolor);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 120px;
+    }
+}
+
+.nav-container {
+    width: 375px;
+    height: 60px;
+    background-color: var(--white);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+}

@@ -1,0 +1,133 @@
+.Search_wrap {
+    position: relative;
+
+    &.back::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: calc((100vw - 375px) / 2);
+        width: 375px;
+        height: calc(100vh - 200px);
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .search {
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+
+        input {
+            width: 336px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid var(--maincolor);
+            margin: 32px auto 0 auto;
+            padding: 0 20px;
+            font-size: 15px;
+        }
+
+        img {
+            width: 22px;
+            height: 22px;
+            position: absolute;
+            bottom: 9px;
+            right: 39.5px;
+            cursor: pointer;
+        }
+
+    }
+    
+    #__react-kakao-maps-sdk___Map {
+        border-radius: 20px;
+        margin: 28px auto 0 auto;
+        width: 336px !important;
+
+    }
+
+    .menu {
+        width: 83px;
+        height: 25px;
+        border-radius: 50px;
+        background-color: var(--maincolor);
+        position: absolute;
+        top: 250px;
+        right: 25px;
+        z-index: 10;
+        color: var(--white);
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        cursor: pointer;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+
+            div {
+                width: 10px;
+                height: 1.17px;
+                background-color: var(--white);
+            }
+        }
+    }
+
+    .result {
+        background-color: var(--white);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 27px 0;
+        position: absolute;
+        bottom: 0;
+        z-index: 10;
+        width: 100%;
+
+        >div {
+            background-color: var(--maincolor);
+            width: 140px;
+            height: 2px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: var(--maincolor);
+            font-weight: bold;
+            text-align: center;
+            padding: 37px;
+        }
+
+        ul {
+            max-height: 200px;
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+
+            li {
+                border: 1.5px solid var(--maincolor);
+                border-radius: 8px;
+                display: flex;
+                height: 50px;
+                margin: 0 auto;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                width: 325px;
+                min-height: 50px;
+
+                h4 {
+                    color: var(--maincolor);
+                }
+
+                img {
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+    }
+}
