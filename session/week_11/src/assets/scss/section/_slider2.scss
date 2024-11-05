@@ -1,0 +1,43 @@
+.myslide2 {
+    width: 236px !important;
+    height: 315px !important;
+    margin: 0 8px;
+    position: relative;
+
+    .swiper-wrapper {
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+        .slide1 {
+            background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241101105250.png/melon/quality/80');
+        }
+        .slide2 {
+            background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241101105310.png/melon/quality/80');
+        }
+        .slide3 {
+            background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241101105329.png/melon/quality/80');
+        }
+        .slide4 {
+            background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241025041517.png/melon/quality/80');
+        }
+
+
+
+    }
+    .custom-pagination {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+
+        &.swiper-pagination-bullet-active {
+            border: 1px solid black;
+        }
+       
+    }
+}

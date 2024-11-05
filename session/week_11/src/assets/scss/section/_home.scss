@@ -1,0 +1,81 @@
+.home-container {
+
+    .main-top {
+        width: 1008px;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 30px;
+        align-items: flex-end;
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            width: 280px;
+            height: 316px;
+            justify-content: space-between;
+
+            .login {
+                border: 1px solid #e0e0e0;
+                padding: 0 17px;
+                height: 116.6px;
+
+                .top {
+                    padding: 24px 0 7px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 11px;
+
+                    p {
+                        &:nth-child(1) {
+                            color: #939393;
+                        }
+
+                        &:nth-child(2) {
+                            color: #818181;
+                        }
+                    }
+                }
+
+                .btn {
+                    background-color: var(--maingreen);
+                    color: #fff;
+                    font-size: 14px;
+                    height: 42px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:hover {
+                        background-color: rgb(21, 181, 61);
+                    }
+                }
+            }
+
+            .event {
+                background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241024050413.png/melon/quality/80');
+                width: 280px;
+                height: 188px;
+
+                background-size: cover;
+            }
+        }
+    }
+
+    .banner {
+        width: 1008px;
+        margin: 0 auto;
+        margin-top: 23px;
+        margin-bottom: 30px;
+        height: 82px;
+        
+        background-image: url('https://cdnimg.melon.co.kr/svc/images/main/imgUrl20241030053647.png/melon/quality/80');
+    }
+
+    .main-bottom {
+        width: 1008px;
+        margin: 0 auto;
+        display: flex;
+
+    }
+}

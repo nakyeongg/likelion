@@ -1,0 +1,102 @@
+.footer-container {
+    border-top: 1px solid #c7c7c7;
+
+    .top {
+        display: flex;
+        gap: 22px;
+        justify-content: flex-end;
+        width: 1008px;
+        margin: 0 auto;
+
+        span {
+            display: block;
+            height: 19px;
+            margin: 18px 0 15px 0;
+            background-image: url('https://cdnimg.melon.co.kr/resource/image/web/common/footer_menu_210109.png');
+        
+            &:nth-child(1) {
+                width: 99px;
+                background-position: -843px 0;
+            }
+
+            &:nth-child(2) {
+                width: 76px;
+                background-position: -948px 0 
+            }
+
+            &:nth-child(3) {
+                background-position: -515px 0;
+            }
+
+            &:nth-child(4) {
+                width: 76px;
+                background-position: -627px 0;
+            }
+
+            &:nth-child(5) {
+                width: 27px;
+                background-position: -708px -21px ;
+            }
+
+            &:nth-child(6) {
+                width: 49px;
+                background-position: -461px 0 ;
+            }
+        }
+    }
+
+    .bottom {
+        border-top: 1px solid rgb(220 220 220);
+        
+
+        .nav {
+            font-size: 12px;
+            color: #505050;
+            display: flex;
+            width: 1008px;
+            margin: 26px auto 0 auto;
+            
+            .no {
+                border: 0;
+            }
+
+            div {
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                padding-right: 4px;
+                margin-right: 6px;
+                border-right: 1px solid rgb(220 220 220);
+            }
+
+        }
+
+        .end {
+            width: 1008px;
+            margin: 19px auto 54px auto;
+            display: flex;
+            flex-wrap: wrap;
+            color: #909090;
+            font-size: 11px;
+
+            strong {
+                font-weight: bold;
+            }
+
+            p {
+                line-height: 20px;
+                margin-right: 8px;
+                padding-right: 8px;
+                border-right: 1px solid #c7c7c7;
+            }
+
+
+            .no {
+                border: 0;
+            }
+
+        }
+    }
+}

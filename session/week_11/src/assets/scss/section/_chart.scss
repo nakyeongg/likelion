@@ -1,0 +1,195 @@
+.chart-container {
+    width: 280px;
+    margin-left: 24px;
+
+    .top {
+        border-bottom: 1px solid #d8ddde;
+        display: flex;
+        justify-content: space-between;
+        height: 24.8px;
+
+        span {
+            background: url('https://cdnimg.melon.co.kr/resource/image/web/main/bg_main_title_140721.png') no-repeat 1px -105px;
+            width: 70px;
+            height: 15px;
+        }
+
+        p {
+            color: #888888;
+        }
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        height: 28px;
+        align-items: center;
+
+        span {
+            display: inline-block;
+            cursor: pointer;
+
+            &:nth-child(1) {
+                background: url('https://cdnimg.melon.co.kr/resource/image/web/main/icon_main_20210720.png') no-repeat -206px -131px;
+                height: 14px;
+                width: 47px;
+            }
+
+            &:nth-child(2) {
+                height: 14px;
+                width: 25px;
+                background: url('https://cdnimg.melon.co.kr/resource/image/web/main/icon_main_200615.png') no-repeat -76px -131px;
+            }
+
+            &:nth-child(3) {
+                background: url('https://cdnimg.melon.co.kr/resource/image/web/main/icon_main_200615.png') no-repeat -127px -131px;
+                height: 14px;
+                width: 62px;
+            }
+        }
+    }
+
+    .top-container,
+    .pop-container,
+    .artist-container {
+        display: flex;
+        flex-direction: column;
+
+        .more {
+            display: flex;
+            justify-content: end;
+            height: 38px;
+            align-items: center;
+            border: 1px solid #eeeeee;
+            border-top: 0;
+
+            
+            span {
+                height: 38px;
+                display: flex !important;
+                align-items: center;
+                justify-content: end !important;
+                width: 10px;
+                height: 10px;
+                margin-right: 8px;
+                background: url(//cdnimg.melon.co.kr/resource/image/web/main/icon_main.png) no-repeat -1px -58px;
+            }
+        }
+
+        .song {
+
+            &:nth-child(2n) {
+                background-color: #f8f8f8;
+            }
+
+            .singer {
+                color: #777777;
+                font-size: 12px;
+            }
+
+            .title {
+                width: 120px;
+                color: #1a1a1a;
+                font-size: 12px;
+                padding-right: 20px;
+            }
+
+            .score {
+                width: 38px;
+                text-align: center;
+                font-style: italic;
+            }
+
+            .up {
+                width: 35px;
+                font-size: 10px;
+            }
+
+            // 호버하기 전에 간단하게 나타나기
+            .origin {
+                display: flex;
+                align-items: center;
+                height: 33.8px;
+                border: 1px solid #eeeeee;
+
+                .score {
+                    font-size: 16px;
+                }
+
+                .title {
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+
+                .singer {
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                    width: 74px;
+                }
+            }
+
+            .hover {
+                display: none;
+            }
+
+            // 호버했을 때 앨범 사진과 함께 나타나기
+            &:hover {
+
+                .origin {
+                    display: none;
+                }
+
+                .hover {
+                    display: flex;
+                    align-items: center;
+                    height: 69.8px;
+
+                    img {
+                        width: 48px;
+                        height: 48px;
+                        margin-right: 10px;
+                    }
+
+                    .score {
+                        font-size: 20px;
+                    }
+
+                    .up {
+                        font-size: 10px;
+                    }
+
+                    .title {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    .artist-container {
+        span {
+            background: url('https://cdnimg.melon.co.kr/resource/image/web/main/icon_main.png') no-repeat 0 -220px;
+            width: 21px;
+            height: 21px;
+        }
+
+        .singer {
+            color: #1a1a1a !important;
+        }
+
+        .origin {
+            .singer {
+                width: 170px !important;
+            }
+        }
+
+        .hover {
+            .singer {
+                width: 112px !important;
+                font-weight: bold;
+            }
+        }
+
+    }
+}

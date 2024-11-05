@@ -1,0 +1,204 @@
+.slide1-container {
+
+    .top {
+        display: flex;
+        width: 476px;
+        justify-content: space-between;
+        height: 24px;
+
+        span {
+            background: url('https://cdnimg.melon.co.kr/resource/image/web/main/bg_main_title_140716.png');
+            background-position: 0 -15px;
+            width: 70px;
+            height: 15px;
+            display: inline-block;
+        }
+    }
+
+    .myslide1 {
+        width: 480px;
+        height: 318px;
+
+        .swiper-slide {
+            width: 156px !important;
+            height: 156px !important;
+            margin: 0 0 3px 0 !important;
+
+            .new_album .list_wrap dl dd .thum span.bg_album_frame {
+                width: 480px !important;
+            }
+
+            .singer {
+                color: #fff;
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 0;
+                height: 30px;
+                line-height: 30px;
+                background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_frame.png) no-repeat 0 -682px;
+                
+            }
+
+            .hover {
+                background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_frame.png) no-repeat -843px -843px;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                width: 156px;
+                height: 156px;
+                display: none;
+                text-align: center;
+                
+                .btn {
+                    background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_btn_page02_140716.png) no-repeat -1px -275px;
+                    z-index: 1;
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 7px;
+                    right: 7px;
+                    width: 42px;
+                    height: 42px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_btn_page02_140716.png) no-repeat -1px -317px;
+                    }
+                }
+            }
+
+            &:hover {
+
+                .singer {
+                    display: none;
+                }
+
+                .hover {
+                    display: block;
+
+                    p {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        z-index: 1;
+                        color: #fff;
+                        width: 140px;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        white-space:nowrap;
+                        left: 50%;
+                        transform: translateX(-50%);
+
+                        &:nth-child(1) {
+                            position: absolute;
+                            top: 60px;
+                            padding-left: 5px;
+                        }
+
+                        &:nth-child(2) {
+                            position: absolute;
+                            top: 75px;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slide1 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/313/11631313_20241101122601_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide2 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/475/11631475_20241101160750_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide3 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/502/11631502_20241101162942_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide4 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/322/11631322_20241101122942_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+        
+        .slide5 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/184/11631184_20241101104738_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide6 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/385/11631385_20241101150112_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide7 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/473/11631473_20241101160400_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide8 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/449/11631449_20241101155751_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide9 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/194/11631194_20241101105347_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide10 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/202/11631202_20241101110341_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide11 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/510/11631510_20241101163500_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide12 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/397/11631397_20241101150835_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide13 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/384/11631384_20241101145950_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide14 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/382/11631382_20241101145700_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide15 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/485/11631485_20241101161251_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide16 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/300/11631300_20241101122343_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide17 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/187/11631187_20241101104851_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+
+        .slide18 {
+            background-image: url('https://cdnimg.melon.co.kr/cm2/album/images/116/31/319/11631319_20241101122709_500.jpg/melon/quality/80/resize/156/optimize');
+        }
+    }
+
+    .btns {
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+        justify-content: flex-end;
+
+        .prev {
+            width: 20px;
+            height: 17px;
+            background: url('https://cdnimg.melon.co.kr/resource/image/web/main/bg_btn_page02_140716.png');
+            background-position: left -220px;
+            z-index: 1;
+        }
+
+        .next {
+            width: 20px;
+            height: 17px;
+            background: url('https://cdnimg.melon.co.kr/resource/image/web/main/bg_btn_page02_140716.png');
+            background-position: right -220px;
+            z-index: 1;
+        }
+    }
+}

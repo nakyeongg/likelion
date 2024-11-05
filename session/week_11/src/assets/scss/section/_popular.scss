@@ -1,0 +1,266 @@
+.popular-container {
+
+    .chart {
+        width: 1008px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 12px;
+            color: #2f2f2f;
+            font-size: 26px;
+            padding: 29px 0 8px 0;
+        }
+    
+        .now-time {
+            color: #575757;
+            font-size: 26px;
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            margin-bottom: 32px;
+    
+            strong {
+                color: var(--maingreen);
+            }
+        }
+        
+        .btns {
+            display: flex;
+            gap: 9px;
+    
+            .btn {
+                display: flex;
+                padding: 0 9px;
+                gap: 4px;
+                border: 1px solid #b2b2b2;
+                height: 30px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100px;
+                line-height: 28px;
+    
+                span {
+                    background-image: url('https://cdnimg.melon.co.kr/resource/image/web/common/button_icons_sprite_20200521.png');
+                    height: 13px;
+                }
+    
+                &:nth-child(1) {
+                    span {
+                        background-position: -203px 0;
+                        width: 13px;
+                    }
+                }
+                &:nth-child(2) {
+                    span {
+                        background-position: 0 0;
+                        width: 13px;
+                    }
+                }
+                &:nth-child(3) {
+                    span {
+                        background-position: 0 0;
+                        width: 13px;
+                    }
+                }
+                &:nth-child(4) {
+                    span {
+                        width: 13px;
+                        background-position: -17px 0;                   
+                    }
+                }
+                &:nth-child(5) {
+                    span {
+                        width: 15px;
+                        background-position: -34px 0;
+                    }
+                }
+                &:nth-child(6) {
+                    span {
+                        width: 15px;
+                        background-position: -34px 0;
+                    }
+                }
+                &:nth-child(7) {
+                    span {
+                        width: 15px;
+                        background-position: -34px 0;
+                    }
+                }
+            }
+        }
+
+        .desc {
+            border-top: 1px solid #c9c9c9;
+            border-bottom: 1px solid #c9c9c9;
+            margin-top: 10px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 13px;
+                height: 13px;
+                border: 1px solid black;
+            }
+
+            p {
+                font-size: 13px;
+
+                &:nth-child(2) {
+                    padding: 0 18px 0 12px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 146px;
+                    width: 270px;
+                }
+
+                &:nth-child(4) {
+                    padding-left: 12px;
+                    width: 190px;
+                }
+
+                &:nth-child(5) {
+                    padding-left: 30px;
+                    width: 111px;
+                }
+
+                &:nth-child(6) {
+                    text-align: center;
+                    width: 58px;
+                }
+
+                &:nth-child(7) {
+                    text-align: center;
+                    width: 52px;
+                }
+
+                &:nth-child(8) {
+                    text-align: center;
+                    width: 52px;
+                }
+
+                &:nth-child(9) {
+                    text-align: center;
+                    width: 52px;
+                }
+            }
+        }
+
+        .top30 {
+
+            .song {
+                display: flex;
+                align-items: center;
+                height: 85px;
+                align-items: center;
+                border-bottom: 1px solid #eaeaea;
+
+                input {
+                    width: 13px;
+                    height: 13px;
+                    border: 1px solid black;
+                    padding: 0 1px;
+                }
+
+                .score {
+                    color: #333;
+                    font-size: 18px;
+                    padding: 0 18px 0 12px;
+                    margin-right: 64px;
+                    width: 49px !important;
+                }
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    margin-right: 36px;
+                }
+
+                .desc2 {
+                    display: flex;
+                    flex-direction: column;
+                    height: 40px;
+                    justify-content: space-around;
+                    width: 270px;
+
+
+                    .title {
+                        font-size: 14px;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        white-space:nowrap;
+                    }
+
+                    .singer {
+                        font-size: 12px;
+                        color: #969696;
+                        overflow:hidden;
+                        text-overflow:ellipsis;
+                        white-space:nowrap;
+                    }
+                }
+
+                .album {
+                    font-size: 12px;
+                    color: #666666;
+                    margin-left: 12px;
+                    width: 190px;
+                    overflow:hidden;
+                    text-overflow:ellipsis;
+                    white-space:nowrap;
+                }
+
+                .like {
+                    display: flex;
+                    margin-left: 18px;
+                    width: 93px;
+
+                    span {
+                        background-image: url('https://cdnimg.melon.co.kr/resource/image/web/common/bullet_icons_sprite_20201112.png');
+                        background-position: -69px -15px;
+                        width: 14px;
+                        height: 12px;
+                        display: inline-block;
+                        margin-right: 2px;
+                    }
+
+                    p {
+                        color: #888888;
+                        font-size: 12px;
+                    }
+                }
+
+                .listen {
+                    background: url('https://cdnimg.melon.co.kr/resource/image/web/common/button_icons_sprite_20200521.png') 0 -30px;
+                    width: 16px;
+                    height: 28px;
+                    margin: 0 15px;
+                }
+
+                .plus {
+                    background: url('https://cdnimg.melon.co.kr/resource/image/web/common/button_icons_sprite_20200521.png') -45px -30px;
+                    width: 19px;
+                    height: 28px;
+                    margin: 0 15px;
+                }
+                
+                .down {
+                    background: url('https://cdnimg.melon.co.kr/resource/image/web/common/button_icons_sprite_20200521.png') -98px -30px;
+                    width: 21px;
+                    height: 24px;
+                    margin: 0 17px;
+                }
+
+                .video {
+                    background: url('https://cdnimg.melon.co.kr/resource/image/web/common/button_icons_sprite_20200521.png') -152px -30px;
+                    width: 24px;
+                    height: 28px;
+                    margin: 0 15px;
+
+                }
+            }
+        }
+    }
+   
+}
